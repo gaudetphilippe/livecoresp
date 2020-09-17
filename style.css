@@ -33,3 +33,18 @@ nav {
     background-color: gray;
     height: 40px;
 }
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+        height: 80px;
+    }
+    ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .burger-menu {
+        display: none;
+    }
+}
