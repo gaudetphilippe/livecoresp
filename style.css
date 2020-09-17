@@ -33,6 +33,7 @@ nav {
     background-color: gray;
     height: 40px;
 }
+
 @media screen and (max-width: 768px) {
     nav {
         display: none;
@@ -47,4 +48,10 @@ nav {
     .burger-menu {
         display: none;
     }
+}
+.burger-menu {
+    cursor: pointer;
+}
+.display-block {
+    display: block;
 }
